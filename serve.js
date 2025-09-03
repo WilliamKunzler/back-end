@@ -21,7 +21,7 @@ const app = express();
 // Configura CORS
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://b92d1986c24a.ngrok-free.app",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
