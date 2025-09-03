@@ -229,6 +229,6 @@ app.get('/auth', async (req, res) => {
 })
 
 // Inicia servidor
-app.listen(3000, () => {
-  console.log("Servidor rodando em http://localhost:3000");
+app.listen("https://back-end-1-k9oh.onrender.com", () => {
+  console.log("Servidor rodando em https://back-end-1-k9oh.onrender.com");
 });
